@@ -14,8 +14,7 @@ On Ubuntu this can be done via
   sudo apt-get install python3-venv python3-dev libgmp-dev libcgal-dev
 
 | See https://gitlab.uni-trier.de/pde-opt/nonlocal-models/nlfem for more information.
-| Moreover to run nlshape **legacy FEniCS(version 2019.1.0)** is required. In order to use FEniCS in a virtual environment, it may has to be 
-installed globally and then inherited as a global site package. A virtual environment can be built and activated via
+| Moreover to run nlshape **legacy FEniCS(version 2019.1.0)** is required. In order to use FEniCS in a virtual environment, it may has to be installed globally and then inherited as a global site package. A virtual environment can be built and activated via
 ::
   mkdir venv
   python3 -m venv venv/
